@@ -1,0 +1,146 @@
+com/example/music/Service/APIRetrofitClient.java
+ com.example.music.Service.APIRetrofitClient
+com/example/music/Activity/DanhSachTheLoaiTheoChuDeActivity.java
+ com.example.music.Activity.DanhSachTheLoaiTheoChuDeActivity
+ com.example.music.Activity.DanhSachTheLoaiTheoChuDeActivity$1
+com/example/music/Adapter/DanhSachAlbumAdapter.java
+ com.example.music.Adapter.DanhSachAlbumAdapter
+ com.example.music.Adapter.DanhSachAlbumAdapter$ViewHolder
+ com.example.music.Adapter.DanhSachAlbumAdapter$ViewHolder$1
+com/example/music/Fragment/Fragment_BaiHat_Hot.java
+ com.example.music.Fragment.Fragment_BaiHat_Hot
+ com.example.music.Fragment.Fragment_BaiHat_Hot$1
+com/example/music/BuildConfig.java
+ com.example.music.BuildConfig
+com/example/music/Adapter/BaiHatHotAdapter.java
+ com.example.music.Adapter.BaiHatHotAdapter
+ com.example.music.Adapter.BaiHatHotAdapter$Viewholder
+ com.example.music.Adapter.BaiHatHotAdapter$Viewholder$1
+ com.example.music.Adapter.BaiHatHotAdapter$Viewholder$2
+ com.example.music.Adapter.BaiHatHotAdapter$Viewholder$2$1
+com/example/music/Model/Playlist.java
+ com.example.music.Model.Playlist
+com/example/music/Adapter/TheLoaiAdapter.java
+ com.example.music.Adapter.TheLoaiAdapter
+ com.example.music.Adapter.TheLoaiAdapter$ViewHolder
+ com.example.music.Adapter.TheLoaiAdapter$ViewHolder$1
+com/example/music/Fragment/Fragment_Ca_Nhan.java
+ com.example.music.Fragment.Fragment_Ca_Nhan
+com/example/music/Service/Dataservice.java
+ com.example.music.Service.Dataservice
+com/example/music/Adapter/PlayNhacViewPaperAdapter.java
+ com.example.music.Adapter.PlayNhacViewPaperAdapter
+com/example/music/Fragment/Fragment_Tim_Kiem.java
+ com.example.music.Fragment.Fragment_Tim_Kiem
+ com.example.music.Fragment.Fragment_Tim_Kiem$1
+ com.example.music.Fragment.Fragment_Tim_Kiem$2
+com/example/music/Activity/DanhSachPlayListActivity.java
+ com.example.music.Activity.DanhSachPlayListActivity
+ com.example.music.Activity.DanhSachPlayListActivity$1
+com/example/music/Adapter/DanhSachPlayListAdapter.java
+ com.example.music.Adapter.DanhSachPlayListAdapter
+ com.example.music.Adapter.DanhSachPlayListAdapter$ViewHolder
+ com.example.music.Adapter.DanhSachPlayListAdapter$ViewHolder$1
+com/example/music/Activity/DanhSachBaiHatActivity.java
+ com.example.music.Activity.DanhSachBaiHatActivity
+ com.example.music.Activity.DanhSachBaiHatActivity$1
+ com.example.music.Activity.DanhSachBaiHatActivity$2
+ com.example.music.Activity.DanhSachBaiHatActivity$3
+ com.example.music.Activity.DanhSachBaiHatActivity$4
+ com.example.music.Activity.DanhSachBaiHatActivity$5
+com/example/music/Service/APIService.java
+ com.example.music.Service.APIService
+com/example/music/Fragment/Fragment_Banner.java
+ com.example.music.Fragment.Fragment_Banner
+ com.example.music.Fragment.Fragment_Banner$1
+ com.example.music.Fragment.Fragment_Banner$1$1
+com/example/music/Adapter/PlaylistAdapter.java
+ com.example.music.Adapter.PlaylistAdapter
+ com.example.music.Adapter.ViewHolder
+com/example/music/Model/BaiHat.java
+ com.example.music.Model.BaiHat
+ com.example.music.Model.BaiHat$1
+com/example/music/Activity/PlayNhacActivity.java
+ com.example.music.Activity.PlayNhacActivity
+ com.example.music.Activity.PlayNhacActivity$1
+ com.example.music.Activity.PlayNhacActivity$2
+ com.example.music.Activity.PlayNhacActivity$3
+ com.example.music.Activity.PlayNhacActivity$4
+ com.example.music.Activity.PlayNhacActivity$5
+ com.example.music.Activity.PlayNhacActivity$6
+ com.example.music.Activity.PlayNhacActivity$7
+ com.example.music.Activity.PlayNhacActivity$8
+ com.example.music.Activity.PlayNhacActivity$8$1
+ com.example.music.Activity.PlayNhacActivity$9
+ com.example.music.Activity.PlayNhacActivity$PlayMP3
+ com.example.music.Activity.PlayNhacActivity$PlayMP3$1
+com/example/music/Fragment/Fragment_Play_DanhSach_Cac_BaiHat.java
+ com.example.music.Fragment.Fragment_Play_DanhSach_Cac_BaiHat
+com/example/music/Activity/DanhSachChuDeActivity.java
+ com.example.music.Activity.DanhSachChuDeActivity
+ com.example.music.Activity.DanhSachChuDeActivity$1
+ com.example.music.Activity.DanhSachChuDeActivity$1$1
+com/example/music/Adapter/BannerAdapter.java
+ com.example.music.Adapter.BannerAdapter
+ com.example.music.Adapter.BannerAdapter$1
+com/example/music/Activity/DanhSachAlbumActivity.java
+ com.example.music.Activity.DanhSachAlbumActivity
+ com.example.music.Activity.DanhSachAlbumActivity$1
+com/example/music/Model/Quangcao.java
+ com.example.music.Model.Quangcao
+com/example/music/Fragment/Fragment_Chude_Theloai_Today.java
+ com.example.music.Fragment.Fragment_Chude_Theloai_Today
+ com.example.music.Fragment.Fragment_Chude_Theloai_Today$1
+ com.example.music.Fragment.Fragment_Chude_Theloai_Today$2
+ com.example.music.Fragment.Fragment_Chude_Theloai_Today$2$1
+ com.example.music.Fragment.Fragment_Chude_Theloai_Today$2$2
+com/example/music/Fragment/Fragment_Trang_Chu.java
+ com.example.music.Fragment.Fragment_Trang_Chu
+com/example/music/Model/Theloai.java
+ com.example.music.Model.Theloai
+com/example/music/Fragment/Fragment_DiaNhac.java
+ com.example.music.Fragment.Fragment_DiaNhac
+com/example/music/Adapter/PlayNhacAdapter.java
+ com.example.music.Adapter.PlayNhacAdapter
+ com.example.music.Adapter.PlayNhacAdapter$ViewHolder
+com/example/music/Model/Album.java
+ com.example.music.Model.Album
+com/example/music/Adapter/AlbumAdapter.java
+ com.example.music.Adapter.AlbumAdapter
+ com.example.music.Adapter.AlbumAdapter$ViewHolder
+ com.example.music.Adapter.AlbumAdapter$ViewHolder$1
+com/example/music/Fragment/Fragment_Playlist.java
+ com.example.music.Fragment.Fragment_Playlist
+ com.example.music.Fragment.Fragment_Playlist$1
+ com.example.music.Fragment.Fragment_Playlist$1$1
+ com.example.music.Fragment.Fragment_Playlist$1$2
+com/example/music/Activity/MainActivity.java
+ com.example.music.Activity.MainActivity
+com/example/music/Adapter/ChuDeAdapter.java
+ com.example.music.Adapter.ChuDeAdapter
+com/example/music/Model/Chude.java
+ com.example.music.Model.Chude
+com/example/music/Adapter/SeachBaiHatAdapter.java
+ com.example.music.Adapter.SeachBaiHatAdapter
+ com.example.music.Adapter.SeachBaiHatAdapter$ViewHolder
+ com.example.music.Adapter.SeachBaiHatAdapter$ViewHolder$1
+ com.example.music.Adapter.SeachBaiHatAdapter$ViewHolder$2
+ com.example.music.Adapter.SeachBaiHatAdapter$ViewHolder$2$1
+com/example/music/Fragment/Fragment_Album_Hot.java
+ com.example.music.Fragment.Fragment_Album_Hot
+ com.example.music.Fragment.Fragment_Album_Hot$1
+ com.example.music.Fragment.Fragment_Album_Hot$2
+com/example/music/Adapter/DanhSachBaiHatAdapter.java
+ com.example.music.Adapter.DanhSachBaiHatAdapter
+ com.example.music.Adapter.DanhSachBaiHatAdapter$ViewHolder
+ com.example.music.Adapter.DanhSachBaiHatAdapter$ViewHolder$1
+ com.example.music.Adapter.DanhSachBaiHatAdapter$ViewHolder$1$1
+ com.example.music.Adapter.DanhSachBaiHatAdapter$ViewHolder$2
+com/example/music/Adapter/MainViewPaperAdapter.java
+ com.example.music.Adapter.MainViewPaperAdapter
+com/example/music/Fragment/Fragment_Thong_Bao.java
+ com.example.music.Fragment.Fragment_Thong_Bao
+com/example/music/Model/Chudetheloai.java
+ com.example.music.Model.Chudetheloai
+com/example/music/Service/DiaChiIP.java
+ com.example.music.Service.DiaChiIP

@@ -1,0 +1,4 @@
+					HƯỚNG DẪN CÀI ĐẶT CODE
+
+-sử công cụ android studio để chạy project,MySql để cài đặt database và XAMPP để nhập sever cho project
+-khi chọn máy ảo cho android studio nên chọn máy ảo có API 21->24 để sử dụng

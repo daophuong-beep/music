@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="18dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:background="@drawable/custemer_baihathot"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_margin="16dp"
+            android:id="@+id/cvivbaihat"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars"
+            >
+            <ImageView
+                android:id="@+id/ivbaihat"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:scaleType="fitXY"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvtenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:text="TextView"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/cvivbaihat"
+            app:layout_constraintTop_toTopOf="@+id/cvivbaihat" />
+
+        <TextView
+            android:id="@+id/tvtencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#FFFFFF"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/cvivbaihat"
+            app:layout_constraintStart_toEndOf="@+id/cvivbaihat" />
+
+        <ImageView
+            android:id="@+id/iviconlove"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:src="@drawable/iconlove"
+            app:layout_constraintBottom_toBottomOf="@+id/cvivbaihat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cvivbaihat"
+            app:layout_constraintVertical_bias="0.0"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

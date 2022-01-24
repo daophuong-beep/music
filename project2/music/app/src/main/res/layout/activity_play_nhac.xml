@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    tools:context=".Activity.PlayNhacActivity">
+    <ImageView
+        android:id="@+id/ivbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/circle"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custemer_playnhac"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbplaynhac"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white"
+        app:title="app nhạc " />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpaperplaynhac"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbplaynhac">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ibaction"
+        app:layout_constraintEnd_toEndOf="@+id/ibaction"
+        app:layout_constraintStart_toStartOf="@+id/ibaction"
+        app:layout_constraintTop_toTopOf="@+id/ibaction"
+        app:srcCompat="@drawable/circle"
+        tools:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/ibrandom"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/iconsuffle" />
+
+    <ImageButton
+        android:id="@+id/ibcycle"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/iconrepeat" />
+
+    <ImageButton
+        android:id="@+id/ibback"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ibrandom"
+        app:srcCompat="@drawable/iconpreview" />
+
+    <ImageButton
+        android:id="@+id/ibnext"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="28dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibcycle"
+        app:srcCompat="@drawable/iconnext" />
+
+    <ImageButton
+        android:id="@+id/ibaction"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="26dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibnext"
+        app:layout_constraintStart_toEndOf="@+id/ibback"
+        app:srcCompat="@drawable/iconplay" />
+
+    <TextView
+        android:id="@+id/tvtimeaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="00:00"
+        app:layout_constraintBottom_toTopOf="@+id/ibrandom"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="00:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/tvtimeaction"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:progressTint="#D51B1B"
+        android:thumbTint="#D51B1B"
+        app:layout_constraintBottom_toBottomOf="@+id/tvtime"
+        app:layout_constraintEnd_toStartOf="@+id/tvtime"
+        app:layout_constraintStart_toEndOf="@+id/tvtimeaction"
+        app:layout_constraintTop_toTopOf="@+id/tvtimeaction"
+        app:tickMarkTint="#F6E6E6" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
